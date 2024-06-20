@@ -1,0 +1,55 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.highlight {
+  background-color: transparent;
+  color: #e46b1b;
+}
+
+.list-shadow {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+.list-container {
+  position: relative;
+  min-height: 250px;
+}
+
+.list-absolute {
+  position: absolute;
+  top: 23%;
+  width: 100%;
+  background-color: white;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.visible {
+  visibility: visible;
+}
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  min-height: 250px;
+  position: relative;
+  z-index: 10;
+}
+
+.MuiAppBar-root {
+  display: flex;
+  justify-content: space-between;
+}
+
+.MuiToolbar-root {
+  justify-content: space-between;
+}
